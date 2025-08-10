@@ -6,7 +6,10 @@ import { Header } from '~/components/header/Header';
 import BackgroundRays from '~/components/ui/BackgroundRays';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Bolt' }, { name: 'description', content: 'Talk with Bolt, an AI assistant from StackBlitz' }];
+  return [
+    { title: 'Wider App Builder' },
+    { name: 'description', content: 'Talk with Wider App Builder, an AI assistant from Wider ML' },
+  ];
 };
 
 export const loader = () => json({});
